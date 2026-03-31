@@ -21,7 +21,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/admin")
 @PreAuthorize("hasRole('ADMIN')")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://hotel-reservation-booking-frontend.onrender.com")
 public class AdminController {
 
     @Autowired
